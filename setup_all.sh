@@ -2,9 +2,9 @@
 
 # Download pretrained embeddings.
 curl -O http://appositive.cs.washington.edu/resources/turian.50d.txt
-curl -O https://nlp.stanford.edu/data/glove.840B.300d.zip
-unzip glove.840B.300d.zip
-rm glove.840B.300d.zip
+#curl -O https://nlp.stanford.edu/data/glove.840B.300d.zip
+#unzip glove.840B.300d.zip
+#rm glove.840B.300d.zip
 
 # Build custom kernels.
 TF_INC=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_include())')
