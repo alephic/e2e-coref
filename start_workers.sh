@@ -4,4 +4,6 @@
 w0=$!
 ./start_worker.sh $1 1 &
 w1=$!
-trap "kill $w0 $w1" SIGINT
+./start_worker.sh $1 2 &
+w2=$!
+trap "kill $w0 $w1 $w2" SIGINT
