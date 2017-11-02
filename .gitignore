@@ -6,8 +6,4 @@ conll-2012
 *.txt
 *.txt.filtered
 *.v*_*_conll
-bin/
-lib/
-include/
-local/
-pip-selfcheck.json
+.vscode
